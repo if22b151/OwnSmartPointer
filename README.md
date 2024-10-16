@@ -1,2 +1,2 @@
-# OwnSmartPointer
-Implementation of own SmartPointer in C++
+# OwnUniquePointer
+Implementation of own UniquePointer in C++
