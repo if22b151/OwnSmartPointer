@@ -8,5 +8,5 @@ if not exist "%dirPath%" (
 )
 
 pushd winBuild
-    cl /nologo ../main.cpp /ZI /EHsc /DEBUG /std:c++20
+    cl /nologo ../main.cpp /ZI /EHsc /DEBUG /std:c++20 
 popd
