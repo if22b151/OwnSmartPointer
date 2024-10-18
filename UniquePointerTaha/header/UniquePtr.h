@@ -135,7 +135,7 @@ class UniquePtr<T[]> {
         UniquePtr& operator=(UniquePtr&& other) noexcept {
             if (this != &other) {
                 delete[] m_ptr;
-                m_ptr = other.ptr_;
+                m_ptr = other.m_ptr;
                 other.m_ptr = nullptr;
             }
             return *this;

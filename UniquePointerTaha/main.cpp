@@ -1,9 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "header/doctest.h"
 #include <iostream>
-#include <memory>
 #include "header/UniquePtr.h"
-#include <stdio.h>
 
 struct Entity{
     Entity() : val(3), charValue('f') {}

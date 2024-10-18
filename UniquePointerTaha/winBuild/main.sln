@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "main", "main.exe", "{8A078FA7-99B0-48E3-8748-9457197F4A33}"
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "main", "main.exe", "{193ED526-4673-4C21-B9A6-87A90B9B4927}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
-		Executable = C:\Taha\Studium\Semester5\EPC\UniquePointer\winBuild\main.exe
+		Executable = C:\Taha\Studium\Semester5\EPC\OwnUniquePointer\UniquePointerTaha\winBuild\main.exe
 		RemoteMachine = DESKTOP-6QNO510
-		StartingDirectory = C:\Taha\Studium\Semester5\EPC\UniquePointer\winBuild
+		StartingDirectory = C:\Taha\Studium\Semester5\EPC\OwnUniquePointer\UniquePointerTaha\winBuild
 		Environment = Default
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
 		UseLegacyDebugEngines = No
@@ -22,12 +22,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A078FA7-99B0-48E3-8748-9457197F4A33}.Release|x64.ActiveCfg = Release|x64
+		{193ED526-4673-4C21-B9A6-87A90B9B4927}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9EE5D1E1-1C81-44E0-842E-E846F11D8365}
+		SolutionGuid = {6ED56F19-36AF-4D94-A848-BD183EE0EE76}
 	EndGlobalSection
 EndGlobal
