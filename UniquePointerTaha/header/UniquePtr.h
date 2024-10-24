@@ -89,6 +89,10 @@ class UniquePtr {
             return (m_ptr != nullptr);
         }
 
+        /* friend std::ostream& operator << (std::ostream& os, const UniquePtr& uni){
+            return os << uni.m_ptr;
+        } */
+
     private:
         template<typename Ty, typename Other = Ty>
         Ty exchange(Ty& val, Other&& newVal) noexcept (
@@ -115,7 +119,7 @@ template <typename T, typename... Types>
 *  
 **/ 
 
-template<class T>
+/* template<class T>
 class UniquePtr<T[]> {
     
     using pointer = T*;
@@ -155,9 +159,9 @@ class UniquePtr<T[]> {
 
         [[nodiscard]] pointer release() {
             return exchange(m_ptr, nullptr);
-            /* valueType temp = m_ptr;
-            m_ptr = nullptr;
-            return temp; */
+            //valueType temp = m_ptr;
+            //m_ptr = nullptr;
+            //return temp;
         }
 
         void reset(pointer ptr = nullptr){
@@ -204,16 +208,16 @@ class UniquePtr<T[]> {
 
     private:
         pointer m_ptr;
-};
+}; */
 
-template<typename Ty>
+/* template<typename Ty>
 struct remove_extent {
     using type = Ty;
 };
 
 template<typename Ty>
 using remove_extent_t = typename remove_extent<Ty>::type;
-
+ */
 
 /* template <typename T>
 [[nodiscard]] UniquePtr<T> make_UniquePtr(const size_t size) {

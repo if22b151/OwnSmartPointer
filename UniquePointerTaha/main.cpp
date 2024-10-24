@@ -4,6 +4,7 @@
 #include "header/UniquePtr.h"
 
 struct Entity{
+    
     Entity() : val(3), charValue('f') {}
 
     Entity(int val, char charValue = 'f') : val(val), charValue(charValue) {}
